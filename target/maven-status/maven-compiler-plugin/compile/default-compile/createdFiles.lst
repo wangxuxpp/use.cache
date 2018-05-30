@@ -1,0 +1,15 @@
+use\cache\shiroCache\memStorage\MemoryStorageMap.class
+use\cache\springCache\RedisCacheCore.class
+use\cache\com\RedisCacheUtil.class
+use\cache\queue\sub\RedisSubscribeBean.class
+use\cache\com\except\RedisReadException.class
+use\cache\redis\RedisShareMemory.class
+use\cache\redis\RedisObjectSerial.class
+use\cache\queue\RedisQueueUtil.class
+use\cache\com\RedisCacheParameter.class
+use\cache\shiroCache\memStorage\IMemoryStorage.class
+use\cache\shiroCache\memStorage\MemoryStorageFactory.class
+use\cache\initial\CacheManagerOperation.class
+use\cache\shiroCache\memStorage\MemoryStorageRedis.class
+use\cache\shiroCache\SpringCatchToShiroCatchAdapter.class
+use\cache\com\except\RedisWriteException.class
